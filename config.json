@@ -58,6 +58,20 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "secret-santa-ddd",
+      "title": "Secret Santa with DDD",
+      "description": "Build a Secret Santa application in .NET (C#) using Domain-Driven Design principles.",
+      "path": "assignments/secret-santa-ddd",
+      "dueDate": "2026-04-01",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.cs",
+          "type": "csharp"
+        }
+      ]
     }
   ]
 }
