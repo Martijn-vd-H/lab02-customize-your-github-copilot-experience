@@ -1,18 +1,47 @@
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## 🔧 What You'll Build
+Build a classic Hangman game in Python using strings, loops, conditionals, and user input. By the end of this assignment, you will create a complete command-line game with clear win and lose conditions.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Setup the Game Data
 
-## ✅ Must Have's
+#### Description
+Create the core game setup by defining a word list, selecting one random word, and preparing variables to track guesses and attempts.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a list with at least 5 possible secret words.
+- Randomly choose one word from that list at the start of the game.
+- Create a display format for hidden letters (for example: `_ _ _ _`).
+- Set a fixed number of incorrect guesses allowed.
+
+
+### 🛠️ Implement the Guessing Loop
+
+#### Description
+Build the main game loop where the player enters letter guesses and receives feedback after each guess.
+
+#### Requirements
+Completed program should:
+
+- Prompt the player to enter one letter per turn.
+- Reveal correctly guessed letters in all matching positions.
+- Decrease remaining attempts only for incorrect guesses.
+- Show updated word progress and attempts remaining after each turn.
+
+
+### 🛠️ Finish the Game with Results
+
+#### Description
+Add final game outcomes so the program clearly ends when the player wins or runs out of attempts.
+
+#### Requirements
+Completed program should:
+
+- End the game with a win message when the full word is guessed.
+- End the game with a lose message when attempts reach zero.
+- Display the secret word at the end of the game.
